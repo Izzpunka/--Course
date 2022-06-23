@@ -1,4 +1,4 @@
-﻿int day = int.Parcel(Console.ReadLine());
+﻿int day = int.Pare(Console.ReadLine());
 
 if (day == 1)
 {
@@ -16,3 +16,17 @@ else if (day == 4)
 {
     Console.WriteLine("Четверг");
 }
+else if (day == 5)
+{
+    Console.WriteLine("Пятница");
+}
+else if (day == 6)
+{
+    Console.WriteLine("Суббота");
+}
+else if (day == 7)
+{
+    Console.WriteLine("Воскресенье");
+}
+else
+Console.WriteLine("Нет такого дня");
