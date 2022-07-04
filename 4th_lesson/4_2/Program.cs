@@ -1,9 +1,26 @@
-﻿// 1. Напишите программу, которая принимает
-//    на вход число и выдаёт количество цифр в числе.
+﻿// 2. Напишите программу, которая принимает на вход
+//    число N и выдаёт произведение чисел от 1 до N.
 
-int CountNum(int num)
+int MultNum(int num);
 {
-   string result = num.ToString();
-   return result.Length;
+    int all_mult = 1;
+    for(int i = 1; i <= num; i++)
+    {
+        all_mult *= i;
+    }
+    return all_mult;
 }
-Console.WriteLine(CountNum(456));
+
+Console.WriteLine(SumNum(4));
+
+Сравнить int MultNum(int num)
+{
+    int all_mult = 1;
+    for (int i = 1; i <= num; i++)
+    {
+        all_mult *= i;
+    }
+    return all_mult;
+}
+Console.WriteLine(MultNum(4));
+
