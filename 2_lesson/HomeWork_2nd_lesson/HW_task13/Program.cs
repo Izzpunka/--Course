@@ -1,12 +1,13 @@
 ﻿// 3. Напишите программу, которая выводит третью цифру
 //    заданного числа или сообщает, что третьей цифры нет.
 
+Console.WriteLine("Введите число");
 void ThirdNum(int num)
 {
     Console.Write($"{num} -> ");
     if (num < 99)
     {
-        Console.WriteLine("there is no third digit");
+        Console.WriteLine("Третьего числа нет.");
         return;
     }
 
@@ -15,10 +16,3 @@ void ThirdNum(int num)
 }
 
 ThirdNum(int.Parse(Console.ReadLine()));
-
-
-
-ThirdNum(641);
-ThirdNum(32879);
-ThirdNum(32079);
-ThirdNum(78);
