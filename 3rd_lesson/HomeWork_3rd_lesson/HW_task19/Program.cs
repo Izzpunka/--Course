@@ -8,7 +8,7 @@ void Palindrome(int n)
     int i = 0;
     string num = n.ToString();
     int size = num.Length - 1;
-    string palindrome = "yes";
+    string palindrome = "yes, it`s palindrome";
     
     while (i < size / 2)
     {
