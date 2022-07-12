@@ -19,4 +19,4 @@ int naturStepen(int a, int b)
     return result;
 }
 
-Console.WriteLine(naturStepen(a,b));
+Console.WriteLine($"Result = {naturStepen(a,b)}");
