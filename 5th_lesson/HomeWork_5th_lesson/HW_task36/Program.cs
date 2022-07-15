@@ -1,8 +1,10 @@
-﻿// 2. Задайте одномерный массив, заполненный случайными числами.
-//    Найдите сумму элементов, стоящих на нечётных позициях. 
+﻿// Задайте одномерный массив, заполненный случайными числами.
+// Найдите сумму элементов, стоящих на нечётных позициях.
+// [3, 7, 23, 12] -> 19
 
+// [-4, -6, 89, 6] -> 0
 
-void Print(int[] arr)
+void CreateMas(int[] arr)
 {
     int size = arr.Length;
 
@@ -35,6 +37,6 @@ int OddNumSum(int[] arr)
     return count;
 }
 
-int[] arr_1 = MassNums(10, 1, 11);
-Print(arr_1);
+int[] arr_1 = MassNums(8, 1, 20);
+CreateMas(arr_1);
 Console.WriteLine(OddNumSum(arr_1));
